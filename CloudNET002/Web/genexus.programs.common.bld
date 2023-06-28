@@ -1,0 +1,13 @@
+GeneXus.dll
+type_SdtGx0020sd_Level_Detail_Grid1Sdt_Item.cs
+type_SdtWorkWithProduct_Product_DetailSdt.cs
+type_SdtWorkWithProduct_Product_List_Grid1Sdt_Item.cs
+type_SdtWorkWithProduct_Product_Section_GeneralSdt.cs
+GxWebStd.cs
+GxWebServicesConfig.cs
+SoapParm.cs
+GxFullTextSearchReindexer.cs
+GxModelInfoProvider.cs
+@genexus.programs.sdt.bld
+type_SdtProduct.cs
+general\gxdomainpage.cs

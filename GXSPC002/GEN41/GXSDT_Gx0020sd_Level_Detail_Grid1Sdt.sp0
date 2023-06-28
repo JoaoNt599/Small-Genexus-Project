@@ -1,0 +1,34 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'Gx0020sd_Level_Detail_Grid1Sdt','Gx0020sd_Level_Detail_Grid1Sdt',0,eng,'18_0_3-171579' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Level.Detail' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 2,[ 5 ],[] ]).
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,0 ],fullname,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],modified,yes).
+struct_dt_i([ 26,1000000,1 ],fullname,'Gx0020sd_Level_Detail_Grid1Sdt.Item').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Producttypecode').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'ProductTypeCode').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,4).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'5').
+ 
+ 
+ 
+ 
+ 
+ 

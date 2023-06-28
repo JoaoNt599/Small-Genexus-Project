@@ -1,0 +1,288 @@
+spec_i([ mnproc,0,'Gx0020sd_Level_Detail_Grid1','Gx0020sd_Level_Detail_Grid1',0,eng,'18_0_3-171579' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 2,[ [ 2,many ] ],[],[],[ [ [ 2 ],[ 5 ] ] ],[ [ [ 2 ],[] ] ],[ 5 ],'IPRODUCTTYPE',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(5,2),t(=,10),t('Cproducttypecode',23) ],[ 5 ],[ t('.NOT.',8),t('null(',1),t('Cproducttypecode',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+level_option_i(2,lvl_paging,[ [ t('Start',23) ],[ t('Count',23) ] ]).
+ 
+ta_i(2,[ [ [ 2,5 ] ] ]).
+ 
+las_i(2,[ [ 5 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','Timeout=120')).
+rule_i(0,datastore(1,'USER_PASSWORD','uwnjziê,ƒueuhÌKLÜ6n')).
+rule_i(0,datastore(1,'USER_ID',uwnjziLsyeuX3RPn)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Id4e90c195d19901033ca49a8c782c9a53')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','Gx0020sd_Level_Detail_Grid1')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(caption,'Product Type')).
+rule_i(0,prop('PMPTAssocTable',o(7,'ProductType'))).
+rule_i(0,prop('IsUserPrompt','0')).
+rule_i(0,prop('MasterPanel','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('Description','Selection List Product Type')).
+rule_i(0,prop('Name','Gx0020sd')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(41)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','Gx0020sd_Level_Detail_Grid1')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Pproducttypecode','Cproducttypecode','Start','Count','Gxid','GXM2RootCol' ],[])).
+rule_i(0,parmio([ [ 'Pproducttypecode',in ],[ 'Cproducttypecode',in ],[ 'Start',in ],[ 'Count',in ],[ 'Gxid',in ],[ 'GXM2RootCol',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'Gx0020sd_Level_Detail_Grid1Sdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,2,[],[ [],'IPRODUCTTYPE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,5).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(5,[ 'ProductTypeCode',int,4,0,'ZZZ9',0,'Product Type Code','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',18 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',17 ]).
+attri_i('GXM1Gx0020sd_Level_Detail_Grid1Sdt',[ 'GXM1Gx0020sd_Level_Detail_Grid1Sdt',o('Gx0020sd_Level_Detail_Grid1Sdt.Item'),0,0,'',0,'GXM1Gx0020sd_Level_Detail_Grid1Sdt','',16 ]).
+attri_i('GXM2RootCol',[ 'GXM2RootCol',o(objectcollection('Gx0020sd_Level_Detail_Grid1Sdt.Item')),0,0,'',0,'GXM2RootCol','',15 ]).
+attri_i('Count',[ count,int,10,0,'',0,'Count','',14 ]).
+attri_i('Start',[ start,int,10,0,'',0,'Start','',13 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',12 ]).
+attri_i('Cproducttypecode',[ cProductTypeCode,int,4,0,'ZZZ9',0,'Product Type Code','',11 ]).
+attri_i('Advanced_label_template',[ 'ADVANCED_LABEL_TEMPLATE',char,20,0,'',0,'ADVANCED_LABEL_TEMPLATE','',6 ]).
+attri_i('Pproducttypecode',[ pProductTypeCode,int,4,0,'ZZZ9',0,'Product Type Code','',5 ]).
+ 
+table_i(2,[ 'ProductType',[ 5 ],'Product Type','ProductType' ]).
+ 
+index_i(2,[ 'IPRODUCTTYPE',u,[ 5 ],'IProductType' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 5 ],[ [ 5 ],[ 5 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,2).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,3,4).
+b_group_i(1,3,lit,0,6,0).
+ 
+b_line_i(2,2,1,cmd,3,[ t('',121,2,0),t('ORDER',39,2,0),t(5,2,2,0) ]).
+b_line_i([ 2,3 ],2,1,cmd,2,[ t('',107,2,0),t('GXM1Gx0020sd_Level_Detail_Grid1Sdt',23,2,0),t(=,10,2,0),t([ 'Gx0020sd_Level_Detail_Grid1Sdt.Item',[ t('(',0,2,0),t(')',4,2,0) ],n ],46,2,0) ]).
+b_line_i([ 2,4 ],2,1,cmd,2,[ t('',107,2,0),t([ t('GXM2RootCol',23,2,0),t('add(',1,2,0) ],31,2,0),t('GXM1Gx0020sd_Level_Detail_Grid1Sdt',23,2,0),t(')',4,2,0) ]).
+b_line_i(4,2,1,cmd,4,[ t('',107,4,0),t([ t('GXM1Gx0020sd_Level_Detail_Grid1Sdt',23,4,0),t('Producttypecode',3,4,0) ],29,4,0),t(=,10,4,0),t(5,2,4,0) ]).
+b_line_i(5,2,1,cmd,4,[ t('',128,5,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(36,1).
+ 
+att_prop_i(2,5,'ExternalName','ProductTypeCode',d).
+att_prop_i(2,5,'ExternalNamespace','Phamarcy',d).
+att_prop_i(2,5,'EmptyAsNull','Yes',v).
+att_prop_i(2,5,idBasedOn,'',d).
+att_prop_i(2,5,'AUTONUMBER','-1',v).
+att_prop_i(2,5,'AUTONUMBER_START','1',d).
+att_prop_i(2,5,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,5,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,5,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,5,'AttRegEx','',d).
+att_prop_i(2,5,'AttValidationFailedMsg','',d).
+att_prop_i(2,5,'DownloadOffline','0',d).
+att_prop_i(2,5,'VarServiceExtName','',d).
+att_prop_i(2,5,'FullName','ProductTypeCode',v).
+ 
+ 
+tbl_att_prop_i(2,2,5,'AllowNulls',n).
+tbl_att_prop_i(2,2,5,'AUTONUMBER',y).
+ 
+var_prop_i(2,'Pproducttypecode',idBasedOn,'',v).
+var_prop_i(2,'Cproducttypecode',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,1000000,0 ],name,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'Level.Detail' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 2,[ 5 ],[] ]).
+struct_dt_i([ 26,1000000,0 ],fullname,'Gx0020sd_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'Gx0020sd_Level_Detail_Grid1Sdt.Item').
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Producttypecode').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'ProductTypeCode').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,4).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,attributeid,'5').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Gx0020sd_Level_Detail_Grid1',0,0,[ [ 'Cproducttypecode' ],[] ]).
+ 
+ 
+pgm_callprotocol_i(mnproc,0,'GX0020SD_LEVEL_DETAIL_GRID1','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

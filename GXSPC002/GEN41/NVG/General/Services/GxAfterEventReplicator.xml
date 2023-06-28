@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_3-171579</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>16</ObjId>
+<ObjName>General.Services.GxAfterEventReplicator</ObjName>
+<ObjDesc>Gx After Event Replicator</ObjDesc>
+<ObjPgmName>General.Services.GxAfterEventReplicator</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Eventresults</VarId>
+<VarName>&amp;EventResults</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gxsynchroinfo</VarId>
+<VarName>&amp;GxSynchroInfo</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

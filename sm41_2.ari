@@ -1,0 +1,7 @@
+domain_i(93,'general\gxdomainpage.cs').
+ext_sdt_map_i(41,'GeneXus.dll',[ 0,1,0 ]).
+sdt_map_i(41,'Gx0020sd_Level_Detail_Grid1Sdt.Item',[ 26,1000000,1 ]).
+sdt_map_i(41,'Product',[ 0,1,0 ]).
+sdt_map_i(41,'WorkWithProduct_Product_DetailSdt',[ 26,1000000,0 ]).
+sdt_map_i(41,'WorkWithProduct_Product_List_Grid1Sdt.Item',[ 26,1000000,1 ]).
+sdt_map_i(41,'WorkWithProduct_Product_Section_GeneralSdt',[ 26,1000000,0 ]).

@@ -1,0 +1,99 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_3-171579</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>WorkWithProduct_Product_Detail</ObjName>
+<ObjDesc>WorkWithProduct_Product_Detail</ObjDesc>
+<ObjPgmName>WorkWithProduct_Product_Detail</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gxid</VarId>
+<VarName>&amp;gxid</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>WorkWithProduct_Product_DetailSdt</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>3</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IPRODUCT</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

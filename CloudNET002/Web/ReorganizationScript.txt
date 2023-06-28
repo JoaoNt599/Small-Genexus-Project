@@ -1,0 +1,4 @@
+ALTER TABLE [Product] ADD [ProductPhoto] VARBINARY(MAX) NOT NULL CONSTRAINT ProductPhotoProduct_DEFAULT DEFAULT CONVERT(varbinary(1), ''), [ProductPhoto_GXI] varchar(2048) NOT NULL CONSTRAINT ProductPhoto_GXIProduct_DEFAULT DEFAULT ''
+ALTER TABLE [Product] DROP CONSTRAINT ProductPhotoProduct_DEFAULT
+ALTER TABLE [Product] DROP CONSTRAINT ProductPhoto_GXIProduct_DEFAULT
+

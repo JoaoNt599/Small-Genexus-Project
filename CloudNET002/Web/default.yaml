@@ -1,0 +1,894 @@
+openapi: 3.0.0
+info:
+  title: "Phamarcy"
+  version: "20230627230011"
+servers:
+  - url: https://trialapps3.genexus.com/Id4e90c195d19901033ca49a8c782c9a53/rest
+paths:
+  /Product/gxobject:
+    post:
+      tags:
+        - Product
+      operationId: "UploadProduct"
+      summary: "Upload a binary for a Product"
+      responses:
+        200:
+          description: "Successful operation"
+        400:
+          description: "Bad request"
+        500:
+          description: "Internal Server Error"
+
+  /Product/{ProductCode}:
+    get:
+      tags:
+        - Product
+      operationId: "GetProduct"
+      summary: "Gets a Product"
+      parameters:
+        - name: "ProductCode"
+          in: "path"
+          description: "Product Code"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+    post:
+      tags:
+        - Product
+      operationId: "InsertProduct"
+      summary: "Inserts a Product"
+      parameters:
+        - name: "ProductCode"
+          in: "path"
+          description: "Product Code"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      requestBody:
+        description: "SDT of Product"
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        201:
+          description: "Created"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+    put:
+      tags:
+        - Product
+      operationId: "UpdateProduct"
+      summary: "Updates a Product"
+      parameters:
+        - name: "ProductCode"
+          in: "path"
+          description: "Product Code"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      requestBody:
+        description: "SDT of Product"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        409:
+          description: "Product was changed"
+    delete:
+      tags:
+        - Product
+      operationId: "DeleteProduct"
+      summary: "Deletes a Product"
+      parameters:
+        - name: "ProductCode"
+          in: "path"
+          description: "Product Code"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        204:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+  /General/Services/DirectionsServiceRequest:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.DirectionsServiceRequest"
+      summary: "Directions Service Request"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.DirectionsServiceRequestInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/General.Services.DirectionsServiceRequestOutput"
+        404:
+          description: "Not found"
+  /General/Services/GxAfterEventReplicator:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.GxAfterEventReplicator"
+      summary: "Gx After Event Replicator"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.GxAfterEventReplicatorInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /General/Services/GxBeforeEventReplicator:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.GxBeforeEventReplicator"
+      summary: "Gx Before Event Replicator"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.GxBeforeEventReplicatorInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/General.Services.GxBeforeEventReplicatorOutput"
+        404:
+          description: "Not found"
+  /General/Services/GxOnPendingEventFailed:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.GxOnPendingEventFailed"
+      summary: "Gx On Pending Event Failed"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.GxOnPendingEventFailedInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/General.Services.GxOnPendingEventFailedOutput"
+        404:
+          description: "Not found"
+  /General/Services/NotificationsRegistrationHandler:
+    post:
+      tags:
+        - General.Services
+      operationId: "General.Services.NotificationsRegistrationHandler"
+      summary: "Notifications Registration Handler"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/General.Services.NotificationsRegistrationHandlerInput"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /Gx0020sd_Level_Detail_Grid1:
+    get:
+      tags:
+        - Gx0020sd_Level_Detail_Grid1
+      operationId: "Gx0020sd_Level_Detail_Grid1"
+      summary: "Gx0020sd_Level_Detail_Grid1"
+      parameters:
+        - name: "Pproducttypecode"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int32"
+        - name: "Cproducttypecode"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int32"
+        - name: "Start"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Count"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Gx0020sd_Level_Detail_Grid1Sdt_Item"  
+
+        404:
+          description: "Not found"
+  /WorkWithProduct_Product_List_Grid1:
+    get:
+      tags:
+        - WorkWithProduct_Product_List_Grid1
+      operationId: "WorkWithProduct_Product_List_Grid1"
+      summary: "WorkWithProduct_Product_List_Grid1"
+      parameters:
+        - name: "Searchtext"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            
+        - name: "Cproducttypecode"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int32"
+        - name: "Start"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Count"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WorkWithProduct_Product_List_Grid1Sdt_Item"  
+
+        404:
+          description: "Not found"
+  /WorkWithProduct_Product_Detail:
+    get:
+      tags:
+        - WorkWithProduct_Product_Detail
+      operationId: "WorkWithProduct_Product_Detail"
+      summary: "WorkWithProduct_Product_Detail"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WorkWithProduct_Product_DetailSdt"  
+
+        404:
+          description: "Not found"
+  /WorkWithProduct_Product_Section_General:
+    get:
+      tags:
+        - WorkWithProduct_Product_Section_General
+      operationId: "WorkWithProduct_Product_Section_General"
+      summary: "WorkWithProduct_Product_Section_General"
+      parameters:
+        - name: "Gxid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WorkWithProduct_Product_Section_GeneralSdt"  
+
+        404:
+          description: "Not found"
+  /sdsvc_WorkWithProduct_Product_List/AfterFilterProductTypeCode:
+    get:
+      tags:
+        - sdsvc_WorkWithProduct_Product_List  
+      operationId: "sdsvc_WorkWithProduct_Product_List.AfterFilterProductTypeCode"
+      summary: "AfterFilterProductTypeCode"
+      parameters:
+        - name: "Pmpt_Producttypecode"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int32"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: "string"
+
+
+        404:
+          description: "Not found"
+
+  /sdsvc_WorkWithProduct_Product_Section_General/AfterAttProductTypeCode:
+    get:
+      tags:
+        - sdsvc_WorkWithProduct_Product_Section_General  
+      operationId: "sdsvc_WorkWithProduct_Product_Section_General.AfterAttProductTypeCode"
+      summary: "AfterAttProductTypeCode"
+      parameters:
+        - name: "Pmpt_Producttypecode"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int32"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: "string"
+
+
+        404:
+          description: "Not found"
+
+components:
+  schemas:
+    Product:
+      properties:
+        ProductCode:
+          description: Product Code
+          type: "integer"
+          format: "int64"
+        ProductName:
+          description: Product Name
+          type: "string"
+        ProductPrice:
+          description: Product Price
+          type: "number"
+          format: "double"
+        ProductStock:
+          description: Product Stock
+          type: "integer"
+          format: "int32"
+        ProductTypeCode:
+          description: Product Type Code
+          type: "integer"
+          format: "int32"
+        ProductTypeName:
+          description: Product Type Name
+          type: "string"
+        ProductPhoto:
+          description: Product Photo
+          type: "string"
+        gx_md5_hash:
+          description: gx_md5_hash is an identifier for a specific version of a resource, it is used for optimistic concurrency check. It is required for update and delete operations and  ignored on insert.
+          type: "string"
+
+
+      required:
+        - ProductCode
+
+
+
+    General.Services.DirectionsServiceRequestOutput:
+      properties:
+        Routes:
+          description: Route
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Route"
+        errorMessages:
+          description: Messages
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Messages_Message"
+    General.Services.GxBeforeEventReplicatorOutput:
+      properties:
+        GxPendingEvents:
+          description: Synchronization Event List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem"
+        EventResults:
+          description: Synchronization Event Result List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+    General.Services.GxOnPendingEventFailedOutput:
+      properties:
+        Continue:
+          type: "boolean"
+
+    General.Services.DirectionsServiceRequestInput:
+      properties:
+        DirectionsServiceProvider:
+          type: "string"
+        DirectionsRequestParameters:
+          description: Directions Request Parameters
+          $ref: "#/components/schemas/GeneXus.Common.DirectionsRequestParameters"
+    General.Services.GxAfterEventReplicatorInput:
+      properties:
+        EventResults:
+          description: Synchronization Event Result List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+        GxSynchroInfo:
+          description: Synchronization Info
+          $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationInfo"
+    General.Services.GxBeforeEventReplicatorInput:
+      properties:
+        GxPendingEvents:
+          description: Synchronization Event List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem"
+        GxSyncroInfo:
+          description: Synchronization Info
+          $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationInfo"
+        EventResults:
+          description: Synchronization Event Result List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+    General.Services.GxOnPendingEventFailedInput:
+      properties:
+        PendingEvent:
+          description: Synchronization Event List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem"
+        BCName:
+          type: "string"
+        BCJson:
+          type: "string"
+        EventResult:
+          description: Synchronization Event Result List
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem"
+        GxSyncroInfo:
+          description: Synchronization Info
+          $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationInfo"
+    General.Services.NotificationsRegistrationHandlerInput:
+      properties:
+        DeviceType:
+          type: "integer"
+          format: "int32"
+        DeviceId:
+          type: "string"
+        DeviceToken:
+          type: "string"
+        DeviceName:
+          type: "string"
+
+  
+    GeneXus.Common.DirectionsRequestParameters:
+      properties:
+        sourceLocation:
+          description: Source Location
+          type: "string"
+        destinationLocation:
+          description: Destination Location
+          type: "string"
+        waypoints:
+          description: Intermediate waypoints
+          type: array
+          items:
+            type: "string"
+        optimizeWaypoints:
+          description: optimize Waypoints
+          type: "boolean"
+        transportType:
+          description: transport Type
+          type: "string"
+        requestAlternateRoutes:
+          description: request Alternate Routes
+          type: "boolean"
+        additionalParameters:
+          description: Configuration Property
+          type: array
+          items:
+            $ref: "#/components/schemas/GeneXus.Common.Notifications.ConfigurationProperty"
+
+
+
+    GeneXus.Common.Messages_Message:
+      properties:
+        Id:
+          description: Id
+          type: "string"
+        Type:
+          description: Type
+          type: "integer"
+          format: "int32"
+        Description:
+          description: Description
+          type: "string"
+
+
+
+    GeneXus.Common.Notifications.ConfigurationProperty:
+      properties:
+        PropertyName:
+          description: Property Name
+          type: "string"
+        PropertyValue:
+          description: Property Value
+          type: "string"
+
+
+
+    GeneXus.Common.Route:
+      properties:
+        name:
+          description: The expected travel time in seconds
+          type: "string"
+        advisoryNotices:
+          description: A collection of advisory notice strings for the route
+          type: array
+          items:
+            type: "string"
+        distance:
+          description: The route distance in meters
+          type: "number"
+          format: "double"
+        expectedTravelTime:
+          description: The expected travel time in seconds
+          type: "number"
+          format: "double"
+        transportType:
+          description: The overall route transport type
+          type: "string"
+        geoline:
+          description: The route geometry
+          type: "string"
+
+
+
+    GeneXus.SD.Synchronization.SynchronizationEventList_SynchronizationEventListItem:
+      properties:
+        EventId:
+          description: Pending Event Id
+          type: "string"
+          format: "uuid"
+        EventTimestamp:
+          description: Pending Event Timestamp
+          type: "string"
+          format: "date-time"
+        EventBC:
+          description: Pending Event BC
+          type: "string"
+        EventAction:
+          description: Pending Event Action
+          type: "integer"
+          format: "int32"
+        EventData:
+          description: Pending Event Data
+          type: "string"
+        EventStatus:
+          description: Pending Event Status
+          type: "integer"
+          format: "int32"
+        EventErrors:
+          description: Pending Event Extras
+          type: "string"
+
+
+
+    GeneXus.SD.Synchronization.SynchronizationEventResultList_SynchronizationEventResultListItem:
+      properties:
+        EventId:
+          description: Pending Event Id
+          type: "string"
+          format: "uuid"
+        EventTimestamp:
+          description: Pending Event Timestamp
+          type: "string"
+          format: "date-time"
+        EventStatus:
+          description: Pending Event Status
+          type: "integer"
+          format: "int32"
+        EventErrors:
+          description: Pending Event Errors
+          type: "string"
+
+        Mappings:
+          type: array
+          items:
+            description: MappingsItem
+            $ref: "#/components/schemas/GeneXus.SD.Synchronization.SynchronizationEventResultList.Mappings_MappingsItem"
+
+
+    GeneXus.SD.Synchronization.SynchronizationEventResultList.Mappings_MappingsItem:
+      properties:
+        Table:
+          description: Table
+          type: "string"
+        Updates:
+          description: Updates
+          type: "string"
+        Conditions:
+          description: Conditions
+          type: "string"
+
+
+      x-gx-level: "SynchronizationEventResultList"
+
+    GeneXus.SD.Synchronization.SynchronizationInfo:
+      properties:
+        GxAppVersion:
+          description: Application Version
+          type: "string"
+        Synchronizer:
+          description: Synchronizer
+          type: "string"
+
+
+
+    Gx0020sd_Level_Detail_Grid1Sdt_Item:
+      properties:
+        ProductTypeCode:
+          description: Product Type Code
+          type: "integer"
+          format: "int32"
+
+
+
+    WorkWithProduct_Product_List_Grid1Sdt_Item:
+      properties:
+        ProductCode:
+          description: Product Code
+          type: "integer"
+          format: "int64"
+        ProductPhoto:
+          description: Product Photo
+          type: "string"
+        ProductPhoto_GXI:
+          description: Product Photo_GXI
+          type: "string"
+        ProductName:
+          description: Product Name
+          type: "string"
+
+
+
+    WorkWithProduct_Product_DetailSdt:
+      properties:
+        Gxdynprop:
+          description: Gxdynprop
+          type: "string"
+
+
+
+    WorkWithProduct_Product_Section_GeneralSdt:
+      properties:
+        ProductCode:
+          description: Product Code
+          type: "integer"
+          format: "int64"
+        ProductName:
+          description: Product Name
+          type: "string"
+        ProductPrice:
+          description: Product Price
+          type: "number"
+          format: "double"
+        ProductStock:
+          description: Product Stock
+          type: "integer"
+          format: "int32"
+        ProductTypeCode:
+          description: Product Type Code
+          type: "integer"
+          format: "int32"
+        ProductTypeName:
+          description: Product Type Name
+          type: "string"
+        ProductPhoto:
+          description: Product Photo
+          type: "string"
+        ProductPhoto_GXI:
+          description: Product Photo_GXI
+          type: "string"
+
+
+
+    GxJsonError:
+      properties:
+        error:
+          $ref: "#/components/schemas/GxJsonError.error"
+
+
+    GxJsonError.error:
+      properties:
+        code:
+          type: "string"
+        message:
+          type: "string"
+
+
+      x-gx-level: "GxJsonError"
+
+ 

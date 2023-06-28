@@ -1,0 +1,17 @@
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/* Root.plist */
+"Dynamic URL" = "動的 URL";
+"Address" = "アドレス";
+"Logging" = "ログ";
+"Enable Log" = "ログを有効にする";
+"Default log level" = "既定のログレベル";
+"Network log level" = "ネットワーク ログ レベル";
+"Synchronization log level" = "同期ログレベル";
+"Database log level" = "データベース ログ レベル";
+
+/* GXPreferencesViewController */
+"Configuration" = "構成";
+"Invalid Server URL" = "無効なサーバー URL";
+"Server" = "サーバー";
+"Validating" = "検証中";

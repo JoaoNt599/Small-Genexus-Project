@@ -1,0 +1,134 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_3-171579</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>WorkWithProduct_Product_Section_General</ObjName>
+<ObjDesc>WorkWithProduct_Product_Section_General</ObjDesc>
+<ObjPgmName>WorkWithProduct_Product_Section_General</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>ProductType</TableName>
+<Description>Product Type</Description></Table>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>Gx0020sd</ObjName>
+<ObjPgmName>Gx0020sd</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ProductTypeCode</AttriName>
+<Description>Product Type Code</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gxid</VarId>
+<VarName>&amp;gxid</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>WorkWithProduct_Product_Section_GeneralSdt</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>FirstRows</Type>
+<MaxRows>1</MaxRows></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IPRODUCT</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>ProductCode</AttriName>
+<Description>Product Code</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>ProductType</TableName>
+<Description>Product Type</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ProductTypeCode</AttriName>
+<Description>Product Type Code</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

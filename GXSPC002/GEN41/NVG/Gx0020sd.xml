@@ -1,0 +1,22 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_3-171579</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>Gx0020sd</ObjName>
+<ObjDesc>Selection List Product Type</ObjDesc>
+<ObjPgmName>Gx0020sd</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects>
+<Object>
+<ObjName>Gx0020sd_Level_Detail_Grid1</ObjName>
+<ObjNavig>GXSPC002\GEN41\NVG\Gx0020sd_Level_Detail_Grid1.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object></Objects></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator></ObjectSpec>

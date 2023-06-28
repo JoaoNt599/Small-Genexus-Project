@@ -1,0 +1,10 @@
+C:\KBs\Phamarcy\CloudNET002\web\bin\gx0020sd.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\gx0020sd.pdb
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\gx0020sd.csproj.AssemblyReference.cache
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\gx0020sd.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\gx0020sd.csproj.CoreCompileInputs.cache
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\gx0020sd.csproj.CopyComplete
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\gx0020sd.dll
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\refint\gx0020sd.dll
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\gx0020sd.pdb
+C:\KBs\Phamarcy\CloudNET002\build\gx0020sd\obj\Release\net6.0\ref\gx0020sd.dll

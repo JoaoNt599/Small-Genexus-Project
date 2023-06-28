@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_Phamarcy</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>(LocalDB)\MSSQLLocalDB</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\KBs\Phamarcy</Directory>
+	<DataFile>GX_KB_Phamarcy.mdf</DataFile>
+	<LogFile>GX_KB_Phamarcy_log.ldf</LogFile>
+	<HostName>DESKTOP-G0SHOK7</HostName>
+</ConnectionInformation>

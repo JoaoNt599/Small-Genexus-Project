@@ -1,0 +1,10 @@
+C:\KBs\Phamarcy\CloudNET002\web\bin\sdsvc_workwithproduct_product_list.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\sdsvc_workwithproduct_product_list.pdb
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\sdsvc_WorkWithProduct_Product_List.csproj.AssemblyReference.cache
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\sdsvc_WorkWithProduct_Product_List.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\sdsvc_WorkWithProduct_Product_List.csproj.CoreCompileInputs.cache
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\sdsvc_WorkWithProduct_Product_List.csproj.CopyComplete
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\sdsvc_workwithproduct_product_list.dll
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\refint\sdsvc_workwithproduct_product_list.dll
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\sdsvc_workwithproduct_product_list.pdb
+C:\KBs\Phamarcy\CloudNET002\build\sdsvc_WorkWithProduct_Product_List\obj\Release\net6.0\ref\sdsvc_workwithproduct_product_list.dll

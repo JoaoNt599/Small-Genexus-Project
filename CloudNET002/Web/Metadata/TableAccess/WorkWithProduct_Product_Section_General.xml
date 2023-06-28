@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="WorkWithProduct_Product_Section_General">
+  <Table name="Product" />
+  <Table name="ProductType" />
+</Dependencies>

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.genexus.phamarcy.pharmacymenu.PharmacyMenu-mergeDebugResources-3:/values-sw480dp-v13/values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\KBs\\Phamarcy\\CloudNET002\\mobile\\Android\\PharmacyMenu\\src\\main\\res\\values-sw480dp\\styles.xml",
+                    "from": {
+                        "startLines": "3,22,30,26,14,6,42,46,44,38,34",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "144,969,1395,1176,597,223,2007,2277,2139,1810,1612",
+                        "endLines": "4,24,32,28,20,12,43,47,45,41,37",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "217,1170,1606,1389,963,591,2135,2410,2273,2003,1806"
+                    },
+                    "to": {
+                        "startLines": "2,4,7,10,13,20,27,29,31,33,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,336,550,766,1131,1498,1630,1767,1905,2100",
+                        "endLines": "3,6,9,12,19,26,28,30,32,36,40",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "127,331,545,761,1126,1493,1625,1762,1900,2095,2291"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+<?xml-stylesheet type='text/xsl' href='prgs.xsl'?><Objects>
+  <Charset>UTF-8</Charset>
+  <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus18Trial/</Path>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWProductType</ObjName>
+    <ObjDesc>Product Types</ObjDesc>
+    <ObjLink>wwproducttype.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWProduct</ObjName>
+    <ObjDesc>Products</ObjDesc>
+    <ObjLink>wwproduct.aspx</ObjLink>
+  </Object>
+</Objects>

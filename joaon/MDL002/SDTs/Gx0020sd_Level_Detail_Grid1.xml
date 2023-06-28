@@ -1,0 +1,44 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>Gx0020sd_Level_Detail_Grid1Sdt</name>
+<camelname>Gx0020sd_Level_Detail_Grid1Sdt</camelname>
+<camelnameex>Gx0020sd_Level_Detail_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Level.Detail' ]</panel>
+<key>[ 2,[ 5 ],[] ]</key>
+<modified>yes</modified>
+<fullname>Gx0020sd_Level_Detail_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<modified>yes</modified>
+<fullname>Gx0020sd_Level_Detail_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Producttypecode</name>
+<camelname>ProductTypeCode</camelname>
+<type>[ 4,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>5</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>2</Id>
+<Name>ProductType</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

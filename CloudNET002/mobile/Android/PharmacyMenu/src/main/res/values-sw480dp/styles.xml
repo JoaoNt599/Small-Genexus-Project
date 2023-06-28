@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Application theme -->
+  <style name="ApplicationTheme" parent="BaseApplicationTheme">
+  </style>
+
+  <style name="ApplicationThemeGeneXusUnanimo.UnanimoMobile.light" parent="BaseApplicationTheme">
+    <item name="colorPrimary">#696ef2</item>
+    <item name="colorPrimaryDark">#f3f6fd</item>
+    <item name="colorAccent">#696ef2</item>
+
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.UnanimoMobile.light</item>
+  </style>
+
+  <style name="ApplicationThemeGeneXusUnanimo.UnanimoMobile.dark" parent="BaseApplicationTheme">
+    <item name="colorPrimary">#a9acf8</item>
+    <item name="colorPrimaryDark">#242426</item>
+    <item name="colorAccent">#a9acf8</item>
+
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.UnanimoMobile.dark</item>
+  </style>
+
+  <style name="ApplicationThemeGeneXusUnanimo.Unanimo" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.Unanimo</item>
+  </style>
+
+  <style name="ApplicationThemeGeneXusUnanimo.Unanimo.light" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.Unanimo.light</item>
+  </style>
+
+  <style name="ApplicationThemeGeneXusUnanimo.Unanimo.dark" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.Unanimo.dark</item>
+  </style>
+
+  <style name="ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.UnanimoMobile.light" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    <item name="colorControlNormal">#696ef2</item>
+
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.UnanimoMobile.dark" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    <item name="colorControlNormal">#a9acf8</item>
+
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.Unanimo" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.Unanimo.light" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarGeneXusUnanimo.Unanimo.dark" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+  </style>
+
+</resources>

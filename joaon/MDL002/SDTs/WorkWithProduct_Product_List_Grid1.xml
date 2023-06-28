@@ -1,0 +1,94 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithProduct_Product_List_Grid1Sdt</name>
+<camelname>WorkWithProduct_Product_List_Grid1Sdt</camelname>
+<camelnameex>WorkWithProduct_Product_List_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Product.List' ]</panel>
+<key>[ 1,[ 1 ],[ 1,1,'Product' ] ]</key>
+<modified>yes</modified>
+<fullname>WorkWithProduct_Product_List_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<modified>yes</modified>
+<fullname>WorkWithProduct_Product_List_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Productcode</name>
+<camelname>ProductCode</camelname>
+<type>[ 4,10,0 ]</type>
+<length>10</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>1</attributeid></member>
+<member>
+<name>Productphoto</name>
+<camelname>ProductPhoto</camelname>
+<type>[ 7,1024,0 ]</type>
+<length>1024</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>7</attributeid></member>
+<member>
+<name>Productname</name>
+<camelname>ProductName</camelname>
+<type>[ 5,50,0 ]</type>
+<length>50</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>2</attributeid></member></members></Level>
+<Services>
+<AfterFilter>
+<PromptName>Gx0020sd</PromptName>
+<AfterPromptName>AfterFilterProductTypeCode</AfterPromptName>
+<Inputs>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ProductTypeCode</AttriName>
+<Description>Product Type Code</Description></Attribute></Inputs>
+<Outputs>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>ProductTypeName</AttriName>
+<Description>Product Type Name</Description></Attribute></Outputs></AfterFilter></Services>
+<Prompts>
+<FilterPrompt>
+<PromptName>Gx0020sd</PromptName>
+<TableId>2</TableId>
+<TableName>ProductType</TableName>
+<Parameter>
+<Type>Out</Type>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>ProductTypeCode</AttriName>
+<Description>Product Type Code</Description></Attribute></Parameter>
+<Parameter>
+<Type>Extra</Type>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>ProductTypeName</AttriName>
+<Description>Product Type Name</Description></Attribute></Parameter></FilterPrompt></Prompts>
+<TableAccess>
+<Table>
+<Id>1</Id>
+<Name>Product</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

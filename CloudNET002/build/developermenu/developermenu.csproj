@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+	
+	
+	<PropertyGroup>
+		<AssemblyName>developermenu</AssemblyName>
+		<TargetFramework>$(TargetFramework)</TargetFramework>
+		<OutputType>Library</OutputType>
+		<GenerateDependencyFile>false</GenerateDependencyFile>
+		<CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+		<PostgresqlSupport>false</PostgresqlSupport>
+		<OfficeSupport>false</OfficeSupport>
+		<MailSupport>false</MailSupport>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include=".\..\producttype\producttype.csproj" />
+		<ProjectReference Include=".\..\product_bc\product_bc.csproj" />
+		<ProjectReference Include=".\..\product\product.csproj" />
+		<ProjectReference Include=".\..\productgeneral\productgeneral.csproj" />
+		<ProjectReference Include=".\..\wwproduct\wwproduct.csproj" />
+		<ProjectReference Include=".\..\viewproduct\viewproduct.csproj" />
+		<ProjectReference Include=".\..\producttypeproductwc\producttypeproductwc.csproj" />
+		<ProjectReference Include=".\..\producttypegeneral\producttypegeneral.csproj" />
+		<ProjectReference Include=".\..\wwproducttype\wwproducttype.csproj" />
+		<ProjectReference Include=".\..\viewproducttype\viewproducttype.csproj" />
+		<ProjectReference Include=".\..\general.security.notauthorized\general.security.notauthorized.csproj" />
+		<ProjectReference Include=".\..\gx0010\gx0010.csproj" />
+		<ProjectReference Include=".\..\gx0020\gx0020.csproj" />
+		<ProjectReference Include=".\..\general.ui.masterprompt\general.ui.masterprompt.csproj" />
+		<ProjectReference Include=".\..\general.ui.masterunanimosidebar\general.ui.masterunanimosidebar.csproj" />
+		<ProjectReference Include=".\..\general.services.directionsservicerequest\general.services.directionsservicerequest.csproj" />
+		<ProjectReference Include=".\..\general.services.gxonpendingeventfailed\general.services.gxonpendingeventfailed.csproj" />
+		<ProjectReference Include=".\..\general.services.gxbeforeeventreplicator\general.services.gxbeforeeventreplicator.csproj" />
+		<ProjectReference Include=".\..\general.services.gxaftereventreplicator\general.services.gxaftereventreplicator.csproj" />
+		<ProjectReference Include=".\..\general.services.anotificationsregistrationhandler\general.services.anotificationsregistrationhandler.csproj" />
+		<ProjectReference Include=".\..\general.services.anotificationsregistrationhandler\general.services.anotificationsregistrationhandler.csproj" />
+		<ProjectReference Include=".\..\sdsvc_WorkWithProduct_Product_List\sdsvc_WorkWithProduct_Product_List.csproj" />
+		<ProjectReference Include=".\..\sdsvc_WorkWithProduct_Product_Section_General\sdsvc_WorkWithProduct_Product_Section_General.csproj" />
+		<ProjectReference Include=".\..\workwithproduct\workwithproduct.csproj" />
+		<ProjectReference Include=".\..\gx0020sd\gx0020sd.csproj" />
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+
+
+	</ItemGroup>
+
+	<ItemGroup>
+
+	</ItemGroup>
+	<ItemGroup Condition="'$(PostgresqlSupport)'=='true'">
+		<PackageReference Include="Npgsql" Version="3.2.7" PrivateAssets="All"/>
+	</ItemGroup>
+
+	<Import Project="..\DotNetCoreBaseProject.targets"/>	
+</Project>

@@ -1,0 +1,13 @@
+C:\KBs\Phamarcy\CloudNET002\web\bin\developermenu.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\developermenu.pdb
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\developermenu.csproj.AssemblyReference.cache
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\developermenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\developermenu.csproj.CoreCompileInputs.cache
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\developermenu.csproj.CopyComplete
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\developermenu.dll
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\refint\developermenu.dll
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\developermenu.pdb
+C:\KBs\Phamarcy\CloudNET002\build\developermenu\obj\Release\net6.0\ref\developermenu.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.anotificationsregistrationhandler.deps.json
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.anotificationsregistrationhandler.runtimeconfig.json
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.anotificationsregistrationhandler.exe

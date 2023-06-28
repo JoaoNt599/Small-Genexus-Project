@@ -1,0 +1,10 @@
+C:\KBs\Phamarcy\CloudNET002\web\bin\viewproducttype.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\viewproducttype.pdb
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\viewproducttype.csproj.AssemblyReference.cache
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\viewproducttype.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\viewproducttype.csproj.CoreCompileInputs.cache
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\viewproducttype.csproj.CopyComplete
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\viewproducttype.dll
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\refint\viewproducttype.dll
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\viewproducttype.pdb
+C:\KBs\Phamarcy\CloudNET002\build\viewproducttype\obj\Release\net6.0\ref\viewproducttype.dll

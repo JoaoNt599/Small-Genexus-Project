@@ -1,0 +1,20 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_3-171579</SpecVersion>
+<Object>
+<ObjClsGuid>9bdcc055-174e-4af6-96cb-a2ceef6c5f09</ObjClsGuid>
+<ObjCls>36</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>PharmacyMenu</ObjName>
+<ObjDesc>Pharmacy Menu</ObjDesc>
+<ObjPgmName>PharmacyMenu</ObjPgmName>
+<ObjClsName>Dashboard</ObjClsName></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

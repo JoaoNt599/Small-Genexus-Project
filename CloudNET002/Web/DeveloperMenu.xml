@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+  <Charset>UTF-8</Charset>
+  <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus18Trial/</Path>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWProductType</ObjName>
+    <ObjDesc>Product Types</ObjDesc>
+    <ObjLink>wwproducttype.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWProduct</ObjName>
+    <ObjDesc>Products</ObjDesc>
+    <ObjLink>wwproduct.aspx</ObjLink>
+  </Object>
+  <Dashboards>
+    <Android>
+      <Name>
+      </Name>
+      <URI>https://trialapps3.genexus.com/Id4e90c195d19901033ca49a8c782c9a53/.apk</URI>
+    </Android>
+  </Dashboards>
+</Objects>

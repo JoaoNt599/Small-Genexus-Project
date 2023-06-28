@@ -1,0 +1,10 @@
+bc_dt_elem_i([ 0,1,0 ],'Productcode',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Productname',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Productprice',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Productstock',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Producttypecode',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Producttypename',readonly,yes).
+bc_dt_elem_i([ 0,1,0 ],'Producttypename',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Productphoto',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Productphoto_gxi',allownulls,no).
+ 

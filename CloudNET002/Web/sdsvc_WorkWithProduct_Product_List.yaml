@@ -1,0 +1,35 @@
+swagger: '2.0'
+info:
+  title: "Phamarcy"
+  version: "20230627230011"
+host: trialapps3.genexus.com
+schemes:
+  - https
+basePath: /Id4e90c195d19901033ca49a8c782c9a53/
+produces:
+  - application/json
+paths:
+  /sdsvc_WorkWithProduct_Product_List/AfterFilterProductTypeCode:
+    get:
+      tags:
+        - sdsvc_WorkWithProduct_Product_List  
+      operationId: "sdsvc_WorkWithProduct_Product_List.AfterFilterProductTypeCode"
+      summary: "AfterFilterProductTypeCode"
+      parameters:
+        - name: "Pmpt_Producttypecode"
+          in: "query"
+          required: false
+          type: "integer"
+          format: "int32"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          schema:
+            type: "string"
+
+        404:
+          description: "Not found"
+
+definitions:
+  

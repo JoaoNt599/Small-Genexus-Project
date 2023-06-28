@@ -1,0 +1,10 @@
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.gxbeforeeventreplicator.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.gxbeforeeventreplicator.pdb
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\general.services.gxbeforeeventreplicator.csproj.AssemblyReference.cache
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\general.services.gxbeforeeventreplicator.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\general.services.gxbeforeeventreplicator.csproj.CoreCompileInputs.cache
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\general.services.gxbeforeeventreplicator.csproj.CopyComplete
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\general.services.gxbeforeeventreplicator.dll
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\refint\general.services.gxbeforeeventreplicator.dll
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\general.services.gxbeforeeventreplicator.pdb
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxbeforeeventreplicator\obj\Release\net6.0\ref\general.services.gxbeforeeventreplicator.dll

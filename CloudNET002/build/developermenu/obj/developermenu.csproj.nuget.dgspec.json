@@ -1,0 +1,2104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\developermenu\\developermenu.csproj": {}
+  },
+  "projects": {
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\developermenu\\developermenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\developermenu\\developermenu.csproj",
+        "projectName": "developermenu",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\developermenu\\developermenu.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\developermenu\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.anotificationsregistrationhandler\\general.services.anotificationsregistrationhandler.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.anotificationsregistrationhandler\\general.services.anotificationsregistrationhandler.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.directionsservicerequest\\general.services.directionsservicerequest.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.directionsservicerequest\\general.services.directionsservicerequest.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxaftereventreplicator\\general.services.gxaftereventreplicator.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxaftereventreplicator\\general.services.gxaftereventreplicator.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxbeforeeventreplicator\\general.services.gxbeforeeventreplicator.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxbeforeeventreplicator\\general.services.gxbeforeeventreplicator.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxonpendingeventfailed\\general.services.gxonpendingeventfailed.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxonpendingeventfailed\\general.services.gxonpendingeventfailed.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0010\\gx0010.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0010\\gx0010.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020sd\\gx0020sd.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020sd\\gx0020sd.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020\\gx0020.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020\\gx0020.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\productgeneral\\productgeneral.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\productgeneral\\productgeneral.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypegeneral\\producttypegeneral.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypegeneral\\producttypegeneral.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypeproductwc\\producttypeproductwc.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypeproductwc\\producttypeproductwc.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttype\\producttype.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttype\\producttype.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product\\product.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product\\product.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product_bc\\product_bc.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product_bc\\product_bc.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_List\\sdsvc_WorkWithProduct_Product_List.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_List\\sdsvc_WorkWithProduct_Product_List.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_Section_General\\sdsvc_WorkWithProduct_Product_Section_General.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_Section_General\\sdsvc_WorkWithProduct_Product_Section_General.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproducttype\\viewproducttype.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproducttype\\viewproducttype.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproduct\\viewproduct.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproduct\\viewproduct.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\workwithproduct\\workwithproduct.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\workwithproduct\\workwithproduct.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproducttype\\wwproducttype.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproducttype\\wwproducttype.csproj"
+              },
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproduct\\wwproduct.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproduct\\wwproduct.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj",
+        "projectName": "general.security.notauthorized",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.security.notauthorized\\general.security.notauthorized.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.security.notauthorized\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.anotificationsregistrationhandler\\general.services.anotificationsregistrationhandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.anotificationsregistrationhandler\\general.services.anotificationsregistrationhandler.csproj",
+        "projectName": "general.services.anotificationsregistrationhandler",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.anotificationsregistrationhandler\\general.services.anotificationsregistrationhandler.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.anotificationsregistrationhandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.directionsservicerequest\\general.services.directionsservicerequest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.directionsservicerequest\\general.services.directionsservicerequest.csproj",
+        "projectName": "general.services.directionsservicerequest",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.directionsservicerequest\\general.services.directionsservicerequest.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.directionsservicerequest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxaftereventreplicator\\general.services.gxaftereventreplicator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxaftereventreplicator\\general.services.gxaftereventreplicator.csproj",
+        "projectName": "general.services.gxaftereventreplicator",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxaftereventreplicator\\general.services.gxaftereventreplicator.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxaftereventreplicator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxbeforeeventreplicator\\general.services.gxbeforeeventreplicator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxbeforeeventreplicator\\general.services.gxbeforeeventreplicator.csproj",
+        "projectName": "general.services.gxbeforeeventreplicator",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxbeforeeventreplicator\\general.services.gxbeforeeventreplicator.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxbeforeeventreplicator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxonpendingeventfailed\\general.services.gxonpendingeventfailed.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxonpendingeventfailed\\general.services.gxonpendingeventfailed.csproj",
+        "projectName": "general.services.gxonpendingeventfailed",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxonpendingeventfailed\\general.services.gxonpendingeventfailed.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.services.gxonpendingeventfailed\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj",
+        "projectName": "general.ui.masterprompt",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterprompt\\general.ui.masterprompt.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterprompt\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj",
+        "projectName": "general.ui.masterunanimosidebar",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterunanimosidebar\\general.ui.masterunanimosidebar.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\general.ui.masterunanimosidebar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj",
+        "projectName": "GeneXus.Programs.Common",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0010\\gx0010.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0010\\gx0010.csproj",
+        "projectName": "gx0010",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0010\\gx0010.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0010\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020sd\\gx0020sd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020sd\\gx0020sd.csproj",
+        "projectName": "gx0020sd",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020sd\\gx0020sd.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020sd\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020\\gx0020.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020\\gx0020.csproj",
+        "projectName": "gx0020",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020\\gx0020.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\gx0020\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\productgeneral\\productgeneral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\productgeneral\\productgeneral.csproj",
+        "projectName": "productgeneral",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\productgeneral\\productgeneral.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\productgeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypegeneral\\producttypegeneral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypegeneral\\producttypegeneral.csproj",
+        "projectName": "producttypegeneral",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypegeneral\\producttypegeneral.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypegeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypeproductwc\\producttypeproductwc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypeproductwc\\producttypeproductwc.csproj",
+        "projectName": "producttypeproductwc",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypeproductwc\\producttypeproductwc.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttypeproductwc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttype\\producttype.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttype\\producttype.csproj",
+        "projectName": "producttype",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttype\\producttype.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\producttype\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product\\product.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product\\product.csproj",
+        "projectName": "product",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product\\product.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product_bc\\product_bc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product_bc\\product_bc.csproj",
+        "projectName": "product_bc",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product_bc\\product_bc.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\product_bc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_List\\sdsvc_WorkWithProduct_Product_List.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_List\\sdsvc_WorkWithProduct_Product_List.csproj",
+        "projectName": "sdsvc_workwithproduct_product_list",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_List\\sdsvc_WorkWithProduct_Product_List.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_List\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_Section_General\\sdsvc_WorkWithProduct_Product_Section_General.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_Section_General\\sdsvc_WorkWithProduct_Product_Section_General.csproj",
+        "projectName": "sdsvc_workwithproduct_product_section_general",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_Section_General\\sdsvc_WorkWithProduct_Product_Section_General.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\sdsvc_WorkWithProduct_Product_Section_General\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproducttype\\viewproducttype.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproducttype\\viewproducttype.csproj",
+        "projectName": "viewproducttype",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproducttype\\viewproducttype.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproducttype\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproduct\\viewproduct.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproduct\\viewproduct.csproj",
+        "projectName": "viewproduct",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproduct\\viewproduct.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\viewproduct\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\workwithproduct\\workwithproduct.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\workwithproduct\\workwithproduct.csproj",
+        "projectName": "workwithproduct",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\workwithproduct\\workwithproduct.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\workwithproduct\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproducttype\\wwproducttype.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproducttype\\wwproducttype.csproj",
+        "projectName": "wwproducttype",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproducttype\\wwproducttype.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproducttype\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproduct\\wwproduct.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproduct\\wwproduct.csproj",
+        "projectName": "wwproduct",
+        "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproduct\\wwproduct.csproj",
+        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
+        "outputPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\wwproduct\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\KBs\\Phamarcy\\CloudNET002\\NuGet.Config",
+          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/genexuslabs/13fb82d9-57a8-49ef-95bb-0ec8324e470c/_packaging/dotnet-prereleases/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj": {
+                "projectPath": "C:\\KBs\\Phamarcy\\CloudNET002\\build\\GeneXus.Programs.Common\\GeneXus.Programs.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GeneXus.Classes.Web.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            },
+            "GeneXus.PdfReportsCS.Core": {
+              "target": "Package",
+              "version": "[1.23.1, 1.23.1]"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion android_build.compile_sdk
+
+	defaultConfig {
+		applicationId "com.genexus.phamarcy.pharmacymenu"
+		versionCode 10
+		versionName "1.0"
+		minSdkVersion android_build.min_sdk
+		targetSdkVersion android_build.target_sdk
+
+		multiDexEnabled true
+		multiDexKeepFile file('multidex-config.txt')
+	}
+
+	signingConfigs {
+		release {
+			storeFile file(String.valueOf(System.getenv("KEYSTORE_FILE")))
+			storePassword System.getenv("KEYSTORE_PASSWORD")
+			keyAlias System.getenv("KEY_ALIAS")
+			keyPassword System.getenv("KEY_PASSWORD")
+		}
+	}
+
+	buildTypes {
+		release {
+			signingConfig signingConfigs.release
+		}
+	}
+
+	compileOptions {
+		sourceCompatibility android_build.java_version
+		targetCompatibility android_build.java_version
+	}
+
+	packagingOptions {
+		exclude 'META-INF/proguard/androidx-annotations.pro'
+	}
+
+	lintOptions {
+		disable "Instantiatable"
+	}
+
+}
+
+dependencies {
+	 implementation 'com.genexus.android:CoreExternalObjects:1.6.3'
+	 implementation 'com.genexus.android:CoreUserControls:1.6.3'
+	 implementation 'com.genexus.android:FlexibleClient:1.6.3'
+	 implementation 'com.genexus.android:SmartGridLib:1.6.3'
+	 implementation 'com.genexus.android:SqlDroidBase:1.6.3'
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	implementation 'androidx.multidex:multidex:2.0.1'
+}
+
+

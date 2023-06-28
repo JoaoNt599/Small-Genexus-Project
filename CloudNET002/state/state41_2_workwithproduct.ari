@@ -1,0 +1,3 @@
+current_obj_i(2, mnproc, 0).
+wwsdinstance.
+ij_object_dependency(workwithproduct,[],[],[workwithproduct_product_list_grid1,workwithproduct_product_detail,workwithproduct_product_section_general], 0).

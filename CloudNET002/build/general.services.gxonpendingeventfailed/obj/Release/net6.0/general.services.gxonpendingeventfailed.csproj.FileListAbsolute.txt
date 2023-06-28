@@ -1,0 +1,10 @@
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.gxonpendingeventfailed.dll
+C:\KBs\Phamarcy\CloudNET002\web\bin\general.services.gxonpendingeventfailed.pdb
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\general.services.gxonpendingeventfailed.csproj.AssemblyReference.cache
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\general.services.gxonpendingeventfailed.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\general.services.gxonpendingeventfailed.csproj.CoreCompileInputs.cache
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\general.services.gxonpendingeventfailed.csproj.CopyComplete
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\general.services.gxonpendingeventfailed.dll
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\refint\general.services.gxonpendingeventfailed.dll
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\general.services.gxonpendingeventfailed.pdb
+C:\KBs\Phamarcy\CloudNET002\build\general.services.gxonpendingeventfailed\obj\Release\net6.0\ref\general.services.gxonpendingeventfailed.dll

@@ -1,0 +1,36 @@
+current_obj_i(2,proc,15).
+ 
+current_guid('144f2b4f-c19d-4c8b-b530-010e4e85763b').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object('general\services\anotificationsregistrationhandler','Notifications Registration Handler','','""','INTERNAL',default).
+ 
+ 
+ 
+ 
+ij_object_dependency('general\services\anotificationsregistrationhandler',[],[],[],15).
+ 
+ 
+obj_parms_i([ 'short aP0_DeviceType','string aP1_DeviceId','string aP2_DeviceToken','string aP3_DeviceName' ],[ [ 'Devicetype',in ],[ 'Deviceid',in ],[ 'Devicetoken',in ],[ 'Devicename',in ] ]).
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
